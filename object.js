@@ -2,22 +2,22 @@
 // You have already learned that JavaScript variables 
 // are containers for data values.
 
-const fruit = { type: "Mango", price: "#20", color: "yellow" };
+// const fruit = { type: "Mango", price: "#20", color: "yellow" };
 
-const person = {
-    firstName: "John",
-    lastName: "Doe",
-    age: 50,
-    eyeColor: "blue"
-};
+// const person = {
+//     firstName: "John",
+//     lastName: "Doe",
+//     age: 50,
+//     eyeColor: "blue"
+// };
 
 // Accessing Object Properties
 // You can access object properties in two ways:
 // objectName.propertyName
 // objectName["propertyName"]
 
-console.log(person.firstName);
-console.log(person["lastName"] + " " + person.age);
+// console.log(person.firstName);
+// console.log(person["lastName"] + " " + person.age);
 
 // Object Methods
 
@@ -28,17 +28,17 @@ console.log(person["lastName"] + " " + person.age);
 
 // Methods are stored in properties as function definitions.
 
-const Person = {
-    firstName: "John",
-    lastName: "Doe",
-    id: 5566,
-    // Object Method
-    fullName: function () {
-        return this.firstName + " " + this.id;
-    }
-};
+// const Person = {
+//     firstName: "John",
+//     lastName: "Doe",
+//     id: 5566,
+//     // Object Method
+//     fullName: function () {
+//         return this.firstName + " " + this.id;
+//     }
+// };
 
-console.log(Person.fullName());
+// console.log(Person.fullName());
 
 // What is this?
 // In JavaScript, the this keyword refers to an object.
