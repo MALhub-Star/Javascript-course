@@ -1,28 +1,28 @@
-function testing() {
-    document.getElementById("demo").innerHTML
-     = Date();
-}
+// function testing() {
+//     document.getElementById("demo").innerHTML
+//      = Date();
+// }
 
 // JavaScript Strings
 
 // JavaScript strings are for storing and manipulating text.
 
 // String Length
-let Name = "MALhub Ng";
-let Count = Name.length;
+// let Name = "MALhub Ng";
+// let Count = Name.length;
 
-console.log(Count);
+// console.log(Count);
 
 // Escape Character
-let text = "We are the so-called \"Vikings\" from the north.";
+// let text = "We are the so-called \"Vikings\" from the north.";
 
-console.log(text);
+// console.log(text);
 
-let Text= 'It\'s alright.';
-console.log(Text);
+// let Text= 'It\'s alright.';
+// console.log(Text);
 
-let tExt = "The character is called backslash.";
-console.log(tExt);
+// let tExt = "The character is called backslash.";
+// console.log(tExt);
 
 
 // Code	Result	Description
@@ -45,10 +45,10 @@ console.log(tExt);
 
 // JavaScript String substr()
 
-let fruits = "Apple, Banana, Kiwi";
-let part = fruits.substr(7, 6);
+// let fruits = "Apple, Banana, Kiwi";
+// let part = fruits.substr(7, 6);
 
-console.log(part);
+// console.log(part);
 
 // Replacing String Content
 
@@ -64,10 +64,10 @@ console.log(part);
 
 // If you want to replace all matches, use a regular expression with the /g flag set. See examples below.
 
-let expression = "Please visit Microsoft and Microsoft!";
-let newText = expression.replace(/Microsoft/g, "W3Schools");
+// let expression = "Please visit Microsoft and Microsoft!";
+// let newText = expression.replace(/Microsoft/g, "W3Schools");
 
-console.log(newText);
+// console.log(newText);
 
 // ASS
 
