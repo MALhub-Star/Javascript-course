@@ -65,3 +65,121 @@ document.getElementById("Looping").innerHTML = text;
 
 
 
+
+// JavaScript For In
+
+// The For In Loop
+// The JavaScript for in statement loops through the properties of an Object:
+
+
+// for (key in object) {
+//   // code block to be executed
+// }
+
+
+// const car = {carname:"Toyota", color: "blue", year: 2023};
+// console.log(car)
+
+// let output = "";
+// for (let y in car) {
+//   output += car[y] + " ";
+// }
+
+// console.log(output);
+
+// Example Explained
+// The for in loop iterates over a person object
+// Each iteration returns a key (x)
+// The key is used to access the value of the key
+// The value of the key is person[x]
+
+
+// For In Over Arrays
+// The JavaScript for in statement can also loop over the properties of an Array:
+
+
+// for (variable in array) {
+//   code
+// }
+
+// const car = [20,10,30,67,43]
+// console.log(car)
+
+// let output = "";
+// for (let y in car) {
+//   output += car[y] + " ";
+// }
+
+// console.log(output);
+
+// Do not use for in over an Array if the index order is important.
+
+// The index order is implementation-dependent, and array values may not be accessed in the order you expect.
+
+// It is better to use a for loop, a for of loop, or Array.forEach() when the order is important.
+
+// const car = [20,10,30,67,43]
+// let output = "";
+// car.forEach(looping);
+// document.getElementById("Looping").innerHTML = output;
+// function looping (value, index, array) {
+//   output += value + "<br>";
+// }
+
+
+// Note that the function takes 3 arguments:
+
+// The item value
+// The item index
+// The array itself
+
+
+// JavaScript For Of
+
+// The For Of Loop
+// The JavaScript for of statement loops through the values of an iterable object.
+
+// It lets you loop over iterable data structures such as Arrays, Strings, Maps, NodeLists, and more:
+
+
+// Syntax
+// for (variable of iterable) {
+//   // code block to be executed
+// }
+
+// const motor = ["BMW", "Volvo", "Saab", "Ford"];
+
+// let move = "";
+// document.getElementById("Looping").innerHTML = output;
+// for (let z of motor) {
+//   move += z;
+// }
+
+// JavaScript While Loop
+
+// The While Loop
+// The while loop loops through a block of code as long as a specified condition is true.
+
+// Syntax
+// while (condition) {
+//   // code block to be executed
+// }
+
+let count = "";
+let num = 10;
+while (num < 100) {
+  count += "<br> Number " + num; num++;
+}
+
+document.getElementById("Looping").innerHTML = count;
+
+// If you forget to increase the variable used in the condition, the loop will never end. This will crash your browser.
+
+// The Do While Loop
+// The do while loop is a variant of the while loop. This loop will execute the code block once, before checking if the condition is true, then it will repeat the loop as long as the condition is true.
+
+// Syntax
+// do {
+//   // code block to be executed
+// }
+// while (condition);
